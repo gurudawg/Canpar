@@ -1,0 +1,41 @@
+
+20160620 - Version 0.1.5
+MengChi Tsai <mtsai@collinsharper.com>
+
+- Unified the package generation. Quotation and shipment creation are now using the same method to create packages. So the number and the properties of the packages are the same in quation and shipment.
+app/code/community/Collinsharper/Canpar/Model/Rate.php
+
+
+20160530 - Version 0.1.4
+MengChi Tsai <mtsai@collinsharper.com>
+
+- Fixed the issue that one configurable product produces two labels when the user creates Canpar shipment and prints the labels.
+- Change the way the module deals with the minimum box weight. Now the module will use the upper limit of the allowed box weight instead of the lower limit when the user leaves the "Maximum Box Weight" blank or enter a value lower than the minimum allowed value.
+app/code/community/Collinsharper/Canpar/Model/Rate.php
+
+
+20160413 - Version 0.1.3
+MengChi Tsai <mtsai@collinsharper.com>
+
+Fixed package weights. Fixed the issue that the total weight of all packages cannot exceed 75lb. Change the limit shipment based on the information provided by Robbie (representative from Canpar).
+app/code/community/Collinsharper/Canpar/Model/Carrier/Shippingmethod.php
+app/code/community/Collinsharper/Canpar/Model/Rate.php
+
+
+20160209 - Version 0.1.2
+Scot Duft <sduft@collinsharper.com>
+
+Fixed package weights.  Was applying the total to each package.
+app/code/community/Collinsharper/Canpar/Model/Rate.php
+Added optional max_box_weight.
+app/code/community/Collinsharper/Canpar/Model/Rate.php
+app/code/community/Collinsharper/Canpar/etc/system.xml
+
+20151029 - Version 0.1.1
+Chris Harper <charper@collinsharper.com>
+
+Fixed ground shipping max weight. Was set to 1 changed to 75 as per Shanes
+notes.
+app/code/community/Collinsharper/Canpar/Model/Carrier/Shippingmethod.php
+app/code/community/Collinsharper/Canpar/Model/Rate.php
+

@@ -1,0 +1,15 @@
+
+<script type="text/javascript">
+//<![CDATA[
+    window.canparurl = '<?php echo $this->getUrl('*/canparupdate/index') ?>';
+
+    observeOptions();
+
+    $H(canpar_ops).each(function(pair) {
+        if (pair.value === true) {
+            var rel = 's_method_' + canpar_ops.selectedrate;
+            $(rel + '_' + pair.key).checked = true;
+        }
+    });
+//]]>
+</script>

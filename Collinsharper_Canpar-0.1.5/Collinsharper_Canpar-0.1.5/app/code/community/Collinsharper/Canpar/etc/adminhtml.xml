@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <menu>
+        <sales>
+            <children>
+                <cshipment translate="title" module="sales">
+                    <title>Canpar Shipment</title>
+                    <action>adminhtml/canparshipment</action>
+                    <sort_order>36</sort_order>
+                </cshipment>
+                <cmanifest translate="title" module="sales">
+                    <title>Canpar Manifest</title>
+                    <action>adminhtml/canparmanifest</action>
+                    <sort_order>37</sort_order>
+                </cmanifest>
+            </children>
+        </sales>
+    </menu>
+</config>

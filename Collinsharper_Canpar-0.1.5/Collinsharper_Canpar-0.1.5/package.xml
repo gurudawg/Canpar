@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+    <name>Collinsharper_Canpar</name>
+    <version>0.1.5</version>
+    <stability>stable</stability>
+    <license uri="https://www.collinsharper.com/">Commercial</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Collinsharper - Canpar Shipping Module</summary>
+    <description>Collinsharper - Canpar Shipping Module</description>
+    <notes>-- 20160620-- resolve label per item issue&#xD;
+&#xD;
+-- 20160531 -- fix one-configurable-product-with-two-labels issue and change the rule of max box weight&#xD;
+&#xD;
+-- 20160413 -- Resolved distribution of boxes per weight issue.&#xD;
+&#xD;
+-- 20160314 -- Various bug fixes&#xD;
+&#xD;
+-- 20151029 -- resolved ground shipping max weight limitation&#xD;
+&#xD;
+Initial release</notes>
+    <authors><author><name>Collins Harper</name><user>collinsharper</user><email>ch@collinsharper.com</email></author></authors>
+    <date>2016-06-20</date>
+    <time>23:07:06</time>
+    <contents><target name="magecommunity"><dir name="Collinsharper"><dir name="Canpar"><dir name="Block"><dir name="Adminhtml"><dir name="Canparmanifest"><file name="Grid.php" hash="71eba50b2d46a925f3b9784a60d04003"/></dir><file name="Canparmanifest.php" hash="dc8723cad4498efa7940177a9582f00d"/><dir name="Canparshipment"><file name="Grid.php" hash="4e3b82a160562a361b9e8fbe5f1a268b"/><dir name="Renderer"><file name="ManifestId.php" hash="ac0cbea737b51b02bbee71ae863d0e60"/></dir></dir><file name="Canparshipment.php" hash="35c2be426fe7f98b3e3f38b0099439e1"/></dir><dir name="Cart"><file name="Shipping.php" hash="a625638500e30e64e89f9ed7de836694"/></dir></dir><dir name="Helper"><file name="Data.php" hash="f0f8d4d33558e7fa0f4ac4061567142d"/></dir><dir name="Model"><dir name="Carrier"><file name="Shippingmethod.php" hash="90726221e48e0404c60479469e8d7e32"/></dir><file name="Manifest.php" hash="3c8f503d17506a654f6b4945767d363d"/><dir name="Mysql4"><dir name="Manifest"><file name="Collection.php" hash="44f30a365e88e4038ef7bbaebfac1d7e"/></dir><file name="Manifest.php" hash="86a2a756c025c0f6e7c44a0dabb370ae"/><dir name="Shipment"><file name="Collection.php" hash="c14db0250a06e759f25142b9bcb16992"/></dir><file name="Shipment.php" hash="a35d4205c4e0345e64d560bb935962e4"/></dir><file name="Observer.php" hash="b2290244c3ff45301d4bbfa68d7d9cbe"/><dir name="Order"><file name="Observer.php" hash="18c1f2ec9620fde3943fa123b08bfcdc"/></dir><file name="Rate.php" hash="811f731802927d412d9d1c33e2aea279"/><file name="Shipment.php" hash="ab26bfa0368fff36dbcab540414bdfa8"/><file name="Soapinterface.php" hash="4ccfdb182ad4f1df1f0ab4fe5cc931d4"/><dir name="Source"><file name="Ccy.php" hash="058bfe005f4550cd45aa467f899fdafd"/><file name="Consolidation.php" hash="af49b1f43d28e7464142b3309e5f5260"/><file name="Dimunits.php" hash="3cd3e84410aa21a495c4bdb4cf9d0a64"/><file name="Handling.php" hash="d5f7565139452f53e87c28669cd092de"/><file name="Method.php" hash="e845c0e810e4baa1e2148c7f36fa7723"/><file name="Weightunits.php" hash="dc7bdc99355e6d57bc4554359203f5c7"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="CanparmanifestController.php" hash="62049a549c021db34c361a798d04336f"/><file name="CanparshipmentController.php" hash="22354894a6bce6b48e72cc5e9b2d336e"/><file name="CanparupdateController.php" hash="71760133662b41bdcd179aaf15fa9226"/></dir><file name="IndexController.php" hash="a9bfdc0ae01e0156347f4088daa92746"/></dir><dir name="etc"><file name="CHANGELOG.txt" hash="696ad7d7219b1403caf44284e52ecd37"/><file name="adminhtml.xml" hash="07a6bba2b0307fb8952a9941846920b7"/><file name="config.xml" hash="acd240b09780dfc76826cb2e5fe8ecb1"/><file name="system.xml" hash="5e38b19ccdfedb6179457284bd0335ff"/></dir><dir name="sql"><dir name="canparmodule_setup"><file name="mysql4-install-0.1.0.php" hash="94d4bdf11a5fe2127d5fb0e27adc172a"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Collinsharper_Canpar.xml" hash="28b6b24604a0ff0dd8ee9fdfc8772f2b"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="chcanpar.xml" hash="f40d8e20f93d3e5b78ac62b69ff98b85"/></dir><dir name="template"><dir name="chcanpar"><file name="options_js.phtml" hash="b98eba54baf8b8181dd7f9bd6a1dcaab"/></dir></dir></dir></dir></dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="chcanpar.xml" hash="6998f40259b5258dc672b065cc1a435d"/></dir></dir></dir></dir></target><target name="mageweb"><dir name="js"><file name="canpar.js" hash="e982b3b357ec1ad597949068815f4b01"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

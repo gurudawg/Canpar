@@ -1,0 +1,11 @@
+<config>
+    <modules>
+        <Collinsharper_Canpar>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Collinsharper_MeasureUnit/>
+            </depends>
+        </Collinsharper_Canpar>
+    </modules>
+</config>
